@@ -1,0 +1,26 @@
+Types of azure storage accounts: 
+
+1.General purpose v2(GPv2) account
+
+ a. MOst commonly used for wide variety of storage solutions
+ b. Supports all azure services: Blobs, files, tables and queues
+ c. By default GPv2 is accessible
+2.General purpose v1
+
+ a. supports all storage services
+ b. low cost compared to GPv2 in some scenarious
+ c. limited features
+ d. recommended only for specific applications
+3. Blob(binary large object) storage account
+
+ a. storage unstructured data documents, images etc.. 
+ b. provided access to hot,cold and archive tiers
+ c. doesnt suppport files, queues or tables
+4. Block blob storage
+
+ a. premium performance tier for block blobs and append blobs
+ b. suitable for workloads that require low latency
+
+5. File storage account: 
+  a. premium performance tier
+
